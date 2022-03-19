@@ -9,7 +9,9 @@
   },
   "dependencies": {
     "core-js": "^3.8.3",
-    "vue": "^2.6.14"
+    "date-fns": "^2.28.0",
+    "vue": "^2.6.14",
+    "vue-meeting-selector": "^1.1.1"
   },
   "devDependencies": {
     "@babel/core": "^7.12.16",
@@ -38,6 +40,7 @@
   "browserslist": [
     "> 1%",
     "last 2 versions",
-    "not dead"
+    "not dead",
+    "not ie > 0"
   ]
 }
